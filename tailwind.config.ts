@@ -8,6 +8,15 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      ringWidth: {
+        '2': '2px',
+      },
+      boxShadow: {
+        frame: '0px 0px 10px 0px rgba(0, 0, 0, 0.25)',
+      },
+      colors: {
+        primary: '#FF79EF'
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
