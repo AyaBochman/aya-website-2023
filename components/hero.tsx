@@ -12,10 +12,10 @@ const raleway = Raleway({
 export default function Hero() {
   return (
     <section
-      className="py-16 px-8 xl:px-64 xl:flex-nowrap flex flex-col items-center gap-12 justify-center flex-wrap xl:flex-row xl:justify-between"
+      className="w-full px-8 py-16 flex flex-col items-center gap-12 mx-auto flex-wrap xl:w-[1000px] xl:flex-nowrap xl:flex-row justify-between"
       id="about"
     >
-      <img src={'gradient1.png'} alt={'gradient'} className='absolute -z-10 -left-40 top-96'/>
+      <img src={'gradient1.png'} alt={'gradient'} className='absolute -z-10 -left-20 top-72'/>
       <div className="flex flex-col gap-6">
         <Status />
         <h1 className={`${raleway.className} text-4xl lg:text-5xl font-semibold`}>
@@ -56,7 +56,7 @@ export default function Hero() {
             <a>Belgrade 🇷🇸</a>
           </div>
         </div>
-       <a download href='/cv.pdf'><Button title={'get my cv'} icon={<Download size={20} />} /></a> 
+       <a download href='/aya-bochman-cv.pdf'><Button title={'get my cv'} icon={<Download size={20} />} /></a> 
       </div>
       <div className="relative">
         <div className="absolute top-4 left-5 rounded-full h-[60px] w-[60px] flex items-center justify-center text-3xl bg-slate-300">
