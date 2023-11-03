@@ -17,7 +17,7 @@ export default function Project({ name, url, imageSrc, tags }: ProjectProps) {
                     src={imageSrc}
                     alt={name}
                     className="object-cover w-full h-full"
-                    width={200}
+                    width={288}
                     height={200}
                 />
                 <div className="absolute h-full w-full bg-gradient-to-b from-slate-800/90 to-slate-200/80 flex flex-col items-center justify-between py-4 -bottom-10 group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition-all duration-300">
